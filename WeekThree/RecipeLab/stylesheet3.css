@@ -1,0 +1,21 @@
+.container {
+    margin: 0 auto 0 auto;
+    width: 700px;
+    background: #fff url(alton-brown-onion-dip.jpg) no-repeat top center;
+    padding-top: 250px;
+    border: 5px solid;
+    border-color: #000;
+}
+
+body{
+  background: #ccc;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* add 5 properties to things like .recipe h2 etc. */
+
+.recipe{
+  padding: 20px 40px;
+  background: #fff;
+}
