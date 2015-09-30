@@ -19,3 +19,30 @@ body{
   padding: 20px 40px;
   background: #fff;
 }
+
+ul{
+  list-style: square;
+  color: red;
+}
+
+a{
+  color: green;
+}
+
+h1{
+  text-decoration: underline;
+}
+h2{
+  text-decoration: underline;
+}
+
+/*
+Pseudo classes
+LoVHAte (:link, :visited, :hover, :active)
+:first-child
+:last-child
+:nth-child(an+b/even/odd/n)
+*/
+
+/* Inline, Inline-Block and Block */
+/* Float example */
