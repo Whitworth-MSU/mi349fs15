@@ -1,0 +1,17 @@
+.persona{
+  background-color: red;
+  width: 33%;
+  height: 300px;
+  float:left;
+}
+.comp{
+  float:left;
+  background-color: blue;
+  height: 300px;
+  width: 33%;
+}
+footer{
+  clear:both;
+  background-color: black;
+  height: 50px;
+}
