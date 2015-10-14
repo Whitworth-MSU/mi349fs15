@@ -1,5 +1,5 @@
 body {
-  background: #ccc;
+  background: #0040FF;
   margin: 0;
   font-family: Helvetica;
 }
@@ -14,7 +14,7 @@ body {
 
 .recipe {
   padding: 20px 40px;
-  background: #fff;
+  background: #00bfff;
 }
 
 /*
@@ -39,29 +39,24 @@ a:hover{
   background: yellow;
   }
 
-  ul li:first-child{
-    color: red;
-  }
-  ul li:last-child{
-    color: red;
-  }
-
-
   ul li:nth-child(2n+1){
-    background: #e3e3e3;
+    background: #00ffc0;
+  }
+  ul li:nth-child(2n){
+    background: #00ff41;
+  ul li:nth-child
   }
 /*
 /* Inline, Inline-Block and Block */
 ul li{
 
   display: inline-block;
-  width: 200px;
-  padding: 10px;
+  width: 25%;
+  height: 100px;
   border: 1px solid #CCC;
 }*/
 ul li{
   float: left;
-  width: 280px;
 }
 
 h2{
