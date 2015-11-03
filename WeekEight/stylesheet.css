@@ -1,0 +1,26 @@
+
+@media (min-width: 400px) and (max-width: 799px){
+  #col{
+
+    columns: 100px 1;
+    -webkit-columns: 100px 1;
+    -moz-columns: 100px 1;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1199px){
+  #col{
+
+    columns: 100px 2;
+    -webkit-columns: 100px 2;
+    -moz-columns: 100px 2;
+  }
+}
+
+@media (min-width: 1200px){
+  #col{
+    columns: 100px 3;
+    -webkit-columns: 100px 3;
+    -moz-columns: 100px 3;
+  }
+}
