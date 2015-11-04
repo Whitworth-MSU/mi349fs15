@@ -1,38 +1,21 @@
-<<<<<<< HEAD
-
 @media (min-width: 400px) and (max-width: 799px){
   #col{
-
-    columns: 100px 1;
-    -webkit-columns: 100px 1;
-    -moz-columns: 100px 1;
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
   }
 }
 
 @media (min-width: 800px) and (max-width: 1199px){
   #col{
-
-    columns: 100px 2;
-    -webkit-columns: 100px 2;
-    -moz-columns: 100px 2;
+    columns: 2;
+    -webkit-columns:  2;
+    -moz-columns:  2;
   }
 }
 
 @media (min-width: 1200px){
   #col{
-    columns: 100px 3;
-    -webkit-columns: 100px 3;
-    -moz-columns: 100px 3;
-=======
-.column{
-  width: 50%;
-  margin:0 auto;
-  background: #e3e3e3;
-  padding 1em;
-}
-@media (max-width: 600px){
-  .column{
-    width 100%;
->>>>>>> origin/master
-  }
-}
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
