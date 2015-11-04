@@ -1,0 +1,8 @@
+Wireframe.cc
+https://wireframe.cc/
+
+I useful free website for creating wireframe quickly. Most elements are added by draging across the screen the general size of the elements you wish to use. This is nice to just sketch out general formats, but since you don't get to choose the element prior to dragging sometimes elements are able to be chosen unless a specfic size after drawing. The quickness of the site definitaly outwieghs the weirdness of no preselected element.
+
+Adobe InDesign
+
+Adobe InDesign is a good sketchup software because it allows for a lot of customization. In addition, it allows for integration with other Adobe Apps, like Photoshop and Dreamweaver for quick asset viewing, like background images and search bars. The downside to using InDesign is that it is not a dedicated mockup software, making it a little complex at times and could offer more than you would ever need.
