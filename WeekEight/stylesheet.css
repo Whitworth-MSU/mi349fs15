@@ -1,6 +1,6 @@
 @media (min-width: 400px) and (max-width: 799px){
   #col{
-    columns: 100px 1;
+    columns: 1;
     -webkit-columns: 1;
     -moz-columns: 1;
   }
