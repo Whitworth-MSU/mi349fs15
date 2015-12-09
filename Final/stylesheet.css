@@ -1,28 +1,43 @@
+@media (min-width: 1100px) {
+
 #gamecontain{
   float:left;
-  height: 500px;
+  height: 300px;
   width: 1000px;
   border: solid 3px black;
 }
-
+#vote{
+  width: 25%;
+  height: 500px;
+  float: right;
+  background-color: grey;
+  font-size: 25px;
+}
+#featured{
+  float: left;
+  width: 70%;
+  height: 500px;
+  background-color: black;
+  border: solid 2px black;
+  margin: 10px;
+}
 .testbox{
   float: left;
   height: 200px;
   width: 200px;
   border: solid 2px black;
   background-color: red;
+  margin: 15px;
 }
-
+.testboximg{
+  margin: 10px;
+}
+.gametitles{
+  text-align: center;
+  font-weight: bold;
+}
 .clear{
   clear: both;
-}
-
-#featured{
-  width: 1000px;
-  height: 500px;
-  background-color: black;
-  border: solid 2px black;
-  margin-bottom: 10px;
 }
 .hovertext {
     color: white;
@@ -32,15 +47,14 @@
     width: auto;
     text-align: center;
     font-size: 55px;
-  }
+}
   .hoverfade{
     position: absolute;
     display: block;
-    width: 1000px;
+    width: 900px;
     height:500px;
     max-height: 100%;
-  }
-
+}
 ul {
     list-style-type: none;
     margin-bottom: 10px;
@@ -67,4 +81,5 @@ a:hover:not(.active) {
 }
 .active {
 background-color:#008500;
+}
 }
