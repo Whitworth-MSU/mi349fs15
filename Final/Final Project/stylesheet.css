@@ -1,6 +1,153 @@
 h1{
   font-family: sans-serif;
 }
+.clear{
+  clear: both;
+}
+html{
+  background-color:#aaaaaa;
+}
+@media screen and (max-width: 1280px) {
+/*After 1280px I can assume they are no longer on a mobile site and can easily scroll*/
+  h1{
+    font-size: 20px;
+  }
+#navdiv{
+  position: fixed;
+  left: 0;
+  top: 0;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  max-width: 200px;
+  height: 100%;
+  overflow: auto;
+  background-color: #18453B;
+}
+#indeximg{
+  width: 100%;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+.navitem{
+  padding: 25px 0px 25px 20px;
+  display: block;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.subnavitem{
+  text-decoration: none;
+  padding: 25px 0px 25px 20px;
+  display: block;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  background-color: #009925;
+}
+.navitem:hover{
+  background-color: #407065;
+}
+.subnavitem:hover{
+  background-color:#10BB36;
+}
+#featured{
+  position: relative;
+  left: 25%;
+  float: left;
+  margin-top: 10px;
+  width: 75%;
+  height: 60%;
+  background-color: black;
+  border: solid 2px black;
+}
+#shoppeimg{
+  width: 100%;
+  max-height: 100%;
+}
+.featuredtab{
+  float: left;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 50px;
+  height: 10%;
+  width: 49%;
+  color: white;
+  background-color: #18453B;
+  border: solid 1px black;
+}
+.boxcontain{
+  position: relative;
+  left: 25%;
+  margin-top: 10%;
+  width: 75%;
+  height: 30%;
+}
+.boximg{
+  width: 100%;
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gamebox{
+  float: left;
+  height: 23%;
+  width: 23%;
+  margin: 2px;
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: blue;
+  font-size: 12px;
+}
+.morestuff{
+  text-align: right;
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: blue;
+  font-size: 12px;
+}
+#whoarewe{
+  position: relative;
+  float:left;
+  left: 25%;
+  height: 20%;
+  width: 60%;
+}
+
+#whypick{
+  position: relative;
+  float:left;
+  left: 25%;
+  height: 20%;
+  width: 60%;
+}
+
+#aboutimg2{
+  position: relative;
+  float:left;
+  left: 25%;
+  height: 20%;
+  width: 60%;
+}
+#actual{
+  position: relative;
+  float:left;
+  left: 25%;
+  height: 20%;
+  width: 60%;
+}
+}
+
+@media screen and (min-width: 1280px) {
+/*After 1280px I can assume they are no longer on a mobile site and can easily scroll*/
 #navlist{
   position: fixed;
   left: 0;
@@ -66,13 +213,10 @@ h1{
   background-color: black;
   border: solid 2px black;
 }
-.clear{
-  clear: both;
-}
 .boxcontain{
   margin-top: 10px;
   margin-left: 210px;
-  width: 1600px;
+  width: 1400px;
   height: 360px;
 }
 
@@ -110,9 +254,7 @@ h1{
   background-color: #18453B;
   border: solid 1px black;
 }
-html{
-  background-color:#aaaaaa;
-}
+
 .morestuff{
   text-align: right;
   font-family: sans-serif;
@@ -122,31 +264,25 @@ html{
 #whoarewe{
   float: left;
   margin-left: 200px;
-  width: 900px;
-  height: 400px;
+  width: 70%;
+  height: 300px;
 }
 #whypick{
-  float: left;
+  float: right;
   margin-left: 25px;
-  width: 700px;
-  height: 300px;
+  width: 40%;
+  max-height: 100%;
   text-align: right;
-}
-#aboutimg1{
-  float:left;
-  margin-left: 15px;
-  height: 300px;
-  width: 500px;
 }
 #aboutimg2{
   margin-left:200px;
   float:left;
-  height: 500px;
-  width: 900px;
+  max-height: 80%;
+  width: 40%;
 }
 #actual{
   float:left;
   margin-left: 200px;
   height:300px;
-  width:800px;
+  width:50%;
 }
